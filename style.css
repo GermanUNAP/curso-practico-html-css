@@ -1,0 +1,30 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    align-content: right;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    color: black;
+    align-items: right;
+    align-content: right;
+    text-align: right;
+}
+.list{
+    list-style-type: none;
+    padding-left: 5%;
+}
+a{
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+#imagen-perfil{
+    height: 50px;
+    width: 50px;
+}
+#google-img{
+    width: 50%;
+    height: 40%;
+}
