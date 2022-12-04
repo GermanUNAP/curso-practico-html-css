@@ -4,6 +4,9 @@
     background: rgb(33, 33, 33);
     color: rgb(43, 195, 255);
 }
+a{
+    cursor: pointer;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -11,7 +14,6 @@ body{
 header{
     width: 100%;
     height: 60px;
-    align-content: right;
 
 }
 header nav{
@@ -36,12 +38,18 @@ a{
 #imagen-perfil{
     height: 40px;
     width: 40px;
+    border-radius: 50%;
 }
 #principal{
-    margin-top: 10%;
+    margin-top: 200px;
+    align-items: center;
+    text-align: center;
+}
+span{
+    align-items: center;
 }
 #google-img{
-    width: 15%;
+    width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +60,22 @@ a{
 }
 #input-principal{
     width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
 }
 .search span{
-    font-size: 35px;
+    font-size: 30px;
+}
+.buttons button{
+    width: 250px;
+    height: 30px;
+    border: 0px solid black;
+    background: rgb(50, 50, 50);
+    border-radius: 3px;
+    
+}
+.buttons button a{
+    color: white;
+    font-size: 15px;
+    background: rgb(50, 50, 50);
 }
