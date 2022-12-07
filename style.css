@@ -41,12 +41,13 @@ a{
     border-radius: 50%;
 }
 #principal{
-    margin-top: 200px;
-    align-items: center;
+    margin-top: 200px;  
     text-align: center;
+    align-items: center;
 }
 span{
     align-items: center;
+    font-size: 20px;
 }
 #google-img{
     width: 300px;
@@ -54,9 +55,14 @@ span{
     margin-left: auto;
     margin-right: auto;
 }
-.search{
+#principal .search{
     margin-top: 30px;
-    text-align: center;
+    width: 600px;
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
 }
 #input-principal{
     width: 400px;
@@ -65,6 +71,9 @@ span{
 }
 .search span{
     font-size: 30px;
+}
+.search a{
+    font-size: 35px;
 }
 .buttons button{
     width: 250px;
