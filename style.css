@@ -71,7 +71,7 @@ span{
 #input-principal{
     width: 400px;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .search span{
     font-size: 30px;
@@ -81,6 +81,11 @@ span{
 }
 .search{
     height: 60px;
+    margin-bottom: 5px;
+}
+#principal .search:hover{
+    box-shadow: 0 1px 10px 0 rgb(240, 240, 240);
+    border-color: white;
 }
 .buttons button{
     margin-top: 30px;
@@ -89,14 +94,18 @@ span{
     border: 0px solid black;
     background: rgb(50, 50, 50);
     border-radius: 3px;
-    
+    margin-left: 10px;
+}
+.buttons button:hover{
+    box-shadow: 0 1px 5px 0 rgb(43, 195, 255);
+    border: 1px solid rgb(43, 195, 255);
 }
 .buttons button a{
     color: white;
     font-size: 15px;
     background: rgb(50, 50, 50);
 }
-#principal p a{
+#principal h3 a{
     color: white;
 }
 /* Footer styles */
@@ -106,6 +115,8 @@ footer {
     width: 100%;
     height: 80px;   /* Height of the footer */
     background: rgb(14, 14, 14);
+    align-items: center;
+    padding-left: 30px;
  }
 .foot p{
     background: rgb(14, 14, 14);
@@ -114,8 +125,16 @@ footer {
     background: rgb(14, 14, 14);
  }
  .foot ul{
-    background: rgb(14, 14, 14);;
+    background: rgb(14, 14, 14);   
+    align-items: center; 
+    text-align: center;
  }
  .foot ul li{
-    background: rgb(14, 14, 14);;
+    background: rgb(14, 14, 14);
+    align-items: center;
+    text-align: center;
+ }
+ .foot-list1{
+    list-style-type: none;
+    padding-right: 60px;
  }
